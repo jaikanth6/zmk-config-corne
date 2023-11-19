@@ -17,8 +17,8 @@
                 quick-tap-ms = <150>;
                 qlobal-quick-tap;
                 bindings = <&kp>, <&kp>;
-            }
-        }
+            };
+        };
 
         keymap {
         	compatible = "zmk,keymap";
