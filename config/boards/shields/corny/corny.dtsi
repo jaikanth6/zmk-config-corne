@@ -1,6 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/foostan/corne/6column.dtsi>
 
+&xiao_serial { status = "disabled"; };
+
 &foostan_corne_6col_layout {
     keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   30       0     0     0>
